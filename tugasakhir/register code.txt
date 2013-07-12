@@ -1,0 +1,26 @@
+<form action="script/register.php" method="POST" enctype="application/x-www-form-urlencoded" autocomplete="on"> 
+                                <h1> DAFTAR </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Username</label>
+                                    <input id="usernamesignup" name="usernamesignup" required type="text" placeholder="itsparking" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Email</label>
+                                    <input id="emailsignup" name="emailsignup" required type="email" placeholder="parking@its.ac.id"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Password </label>
+                                    <input id="passwordsignup" name="passwordsignup" required type="password" placeholder="passw0Rdp4rKIn6"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Konfirmasi Password</label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required type="password" placeholder="passw0Rdp4rKIn6"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Daftar"/> 
+								</p>
+                                <p class="change_link">  
+									Sudah terdaftar ?
+									<a href="#tologin" class="to_register"> Masuk </a>
+								</p>
+                            </form>

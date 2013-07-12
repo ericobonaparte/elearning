@@ -1,0 +1,25 @@
+INSERT INTO pemilik_kendaraan (id_pengguna_kendaraan, jenis_id_pengguna, nama_pengguna,
+	tempat_lahir, jenis_kelamin, agama, alamat_id_pengguna, kota, propinsi,
+	negara, kode_pos, alamat_pengguna, no_telepon, no_handphone, email)
+VALUES ('3522180204930001', 'KTP', 'Muhammad Rohman', 'Bojonegoro', 'L', 'Islam',
+	'Jl. Raya Ngambon No. 183', 'Bojonegoro', 'Jawa Timur', 'Indonesia', '62161',
+	'Keputih 1D/53 Kav.5', '0', '+628974235030', 'rmuhammad@live.com');
+
+
+j_id
+no_id
+namalengkap
+t_lahir
+tgl_lahir
+jk
+agama
+alamat
+kota
+propinsi
+negara
+kodepos
+alamatsby
+phone
+hphone
+email
+photo
